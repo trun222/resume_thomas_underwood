@@ -31,7 +31,7 @@ const Home: NextPage = () => {
               <div></div>
               <div className="flex flex-row">
                 <a
-                  className="mx-2"
+                  className="hover:shadow-xl mx-2"
                   href="https://github.com/trun222"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                 </a>
 
                 <a
-                  className="mx-2"
+                  className="hover:shadow-xl mx-2"
                   href="https://www.linkedin.com/in/thomas-underwood-ii/"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
                 </a>
 
                 <a
-                  className="mx-2"
+                  className="hover:shadow-xl mx-2"
                   href="https://medium.com/@thomasunderwoodii"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                 Thomas Underwood
               </h1>
             </div>
-            <div className="flex flex-row ml-20 mt-6">
+            <div className="flex flex-row  ml-20 mt-6">
               <Image
                 className="rounded-md"
                 src="/me.jpg"
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                 width="950px"
               />
               <div
-                className={`relative top-[120px] left-[-120px] h-[350px] w-auto bg-gradient-to-r ${styles.bgTertiary} rounded-lg p-10`}
+                className={`relative top-[80px] left-[-120px] h-[425px] w-[925px] bg-gradient-to-r ${styles.bgTertiary} hover:shadow-xl rounded-lg p-10`}
               >
                 <h2
                   className={`title-font text-6xl font-black text-white ${styles.colorPrimary}`}
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col items-center gap-8 p-8">
             <div
-              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-60 p-10`}
+              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-60 hover:shadow-xl rounded-lg p-10`}
             >
               <h1 className="text-3xl font-bold text-white">
                 Lead Developer - Glossi, Los Angeles, CA
@@ -158,7 +158,7 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className={`h-auto w-[800px] ${styles.bgTertiary} relative left-60  p-10`}
+              className={`h-auto w-[800px] ${styles.bgTertiary} relative left-60 hover:shadow-xl rounded-lg  p-10`}
             >
               <h1 className="text-3xl font-bold">
                 Sr. UI Engineer - Moonwalk, New York City
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-60 p-10`}
+              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-6 hover:shadow-xl rounded-lg p-10`}
             >
               <h1 className="text-3xl font-bold text-white">
                 Sr. Full Stack Developer - Enosix
@@ -207,7 +207,7 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className={`h-auto w-[800px] ${styles.bgTertiary} relative left-60  p-10`}
+              className={`h-auto w-[800px] ${styles.bgTertiary} relative left-60 hover:shadow-xl rounded-lg p-10`}
             >
               <h1 className="text-3xl font-bold">
                 Sr. Full Stack Developer - Fischer Homes
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-60 p-10`}
+              className={`h-auto w-[800px] ${styles.bgPrimary} relative right-60 hover:shadow-xl rounded-lg p-10`}
             >
               <h1 className="text-3xl font-bold text-white">
                 Sr. Software Engineer - ResolvIT
