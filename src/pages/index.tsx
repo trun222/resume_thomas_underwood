@@ -138,15 +138,15 @@ const Home: NextPage = () => {
                 Lead Developer - Glossi, Los Angeles, CA
               </h1>
               <p className="text-2xl text-white my-2">
-                Technical lead of an engineering team that created the world's
-                first photo-realistic video and product shots in a web browser
-                with Unreal Engine 5. Planned company technical objectives on
-                the executive leadership team and was responsible for coding,
-                goal setting, project planning, and execution. Architected and
-                implemented the product, supporting services, CI/CD, and Cloud
-                infrastructure. Hired, trained, and led my engineering team.
-                Worked across multiple supporting teams with QA, UI/UX, and the
-                executive leadership team. (
+                Technical lead of an engineering team that created the
+                world&apos;s first photo-realistic video and product shots in a
+                web browser with Unreal Engine 5. Planned company technical
+                objectives on the executive leadership team and was responsible
+                for coding, goal setting, project planning, and execution.
+                Architected and implemented the product, supporting services,
+                CI/CD, and Cloud infrastructure. Hired, trained, and led my
+                engineering team. Worked across multiple supporting teams with
+                QA, UI/UX, and the executive leadership team. (
                 <span className="font-bold">Next.js</span>,{" "}
                 <span className="font-bold">Chakra</span>,{" "}
                 <span className="font-bold">GraphQL</span>,{" "}
@@ -243,14 +243,14 @@ const Home: NextPage = () => {
                 Redesigned a legacy front-end web application for a largely
                 adopted service that is used to build, test and deploy code
                 throughout GE Aviation. Primarily built high- performing, modern
-                web applications for large groups of users. Participated in 'big
-                room' project planning for establishing features, tasks, and
-                various priorities for Agile sprints. Worked frequently with
-                back-end engineers and UI/UX teams in an Agile environment to
-                deliver excellent software that satisfied the given
-                requirements. Interviewed, hired, and trained several front-end
-                developers. (<span className="font-bold">Vue.js</span>,{" "}
-                <span className="font-bold">Vuetify</span>,{" "}
+                web applications for large groups of users. Participated in
+                &apos;big room&apos; project planning for establishing features,
+                tasks, and various priorities for Agile sprints. Worked
+                frequently with back-end engineers and UI/UX teams in an Agile
+                environment to deliver excellent software that satisfied the
+                given requirements. Interviewed, hired, and trained several
+                front-end developers. (<span className="font-bold">Vue.js</span>
+                , <span className="font-bold">Vuetify</span>,{" "}
                 <span className="font-bold">Axios</span>,{" "}
                 <span className="font-bold">WebRTC</span>,{" "}
                 <span className="font-bold">Typescript</span>,{" "}
