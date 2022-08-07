@@ -15,11 +15,9 @@
 }
 
 .animatedGradient {
-  height: 100vh;
-  width: 100vw;
   background: linear-gradient(-45deg, #f6f6f6, #d1bfb7, #e29886, #f47156);
   background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
+  animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {
@@ -35,7 +33,7 @@
 }
 
 .bgPrimary {
-  background: #e29886;
+  background: #f47156;
 }
 
 .colorPrimary {
