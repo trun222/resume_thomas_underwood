@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
 import Card from "@/src/components/common/Card";
+import { Pace, WindupChildren, Pause } from "windups";
 
 const Home: NextPage = () => {
   return (
@@ -121,9 +122,30 @@ const Home: NextPage = () => {
                     Leet Coder
                   </a>
                 </h2>
-                <h3 className="title-font text-lg lg:text-xl font-thin mt-2">
-                  Frontend, Backend, FullStack, DevOps, Project Management
-                </h3>
+
+                <WindupChildren>
+                  <Pace getPace={(char) => 250}>
+                    <h3 className="title-font text-lg lg:text-xl font-thin inline-block mt-2">
+                      Frontend,
+                    </h3>{" "}
+                    <Pause ms={500} />
+                    <h3 className="title-font text-lg lg:text-xl font-thin inline-block mt-2">
+                      Backend,
+                    </h3>{" "}
+                    <Pause ms={500} />
+                    <h3 className="title-font text-lg lg:text-xl font-thin inline-block mt-2">
+                      FullStack,
+                    </h3>{" "}
+                    <Pause ms={500} />
+                    <h3 className="title-font text-lg lg:text-xl font-thin inline-block mt-2">
+                      DevOps,
+                    </h3>{" "}
+                    <Pause ms={500} />
+                    <h3 className="title-font text-lg lg:text-xl font-thin inline-block mt-2">
+                      Project Management
+                    </h3>{" "}
+                  </Pace>
+                </WindupChildren>
               </div>
             </div>
 
