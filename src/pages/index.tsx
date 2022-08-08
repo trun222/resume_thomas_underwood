@@ -81,7 +81,7 @@ const Home: NextPage = () => {
               <img
                 className="rounded-md h-[350px] w-[450px] sm:h-[450px] sm:w-[550px] lg:h-[550px] lg:w-[650px] xl:h-[550px] xl:w-[650px] "
                 title="Thomas Underwood"
-                src="/me.jpg"
+                src="https://resume-thomas-underwood.s3.amazonaws.com/compressed_thomas.jpg"
               />
               <div
                 className={`lg:relative h-[300px] w-[450px] sm:w-[550px] lg:w-[950px] xl:w-[650px] xl:h-[250px] lg:left-[-100px] lg:h-[425px] mt-4 bg-gradient-to-r ${styles.bgTertiary} hover:shadow-xl rounded-lg p-10`}
