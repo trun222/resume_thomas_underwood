@@ -15,9 +15,16 @@
 }
 
 .animatedGradient {
-  background: linear-gradient(-45deg, #f6f6f6, #d1bfb7, #e29886, #f47156);
+  background: linear-gradient(
+    -45deg,
+    #f6f6f6,
+    #d1bfb7,
+    #e29886,
+    #c0e7e8,
+    #f47156
+  );
   background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 7s ease infinite;
 }
 
 @keyframes gradient {
